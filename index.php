@@ -46,9 +46,12 @@
 
     echo "<br><br><br><br>";
 
-   for($i = 1; $i = 100; $i++)
+
+    $num = 10;
+
+   for($x = 0; $x <= 10; $x++)
     {
-        echo $i;
+        echo "<p>" . $num . " X " . $x . " = " . $num * $x . "</p>";
     }
 
 ?>
